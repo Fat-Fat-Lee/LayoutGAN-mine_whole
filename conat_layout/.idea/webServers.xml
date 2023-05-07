@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="032ad629-b2ad-477b-a747-586f2e955c8f" name="ljw_2">
+        <fileTransfer rootFolder="/home/ljw" accessType="SFTP" host="127.0.0.1" port="2222" sshConfigId="ec5b1f9f-97ee-4f75-b736-a90f7f204af9" sshConfig="tmp013@127.0.0.1:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ffe9b03b-9937-42b6-8936-f63fcdef26b5" name="buaa_lab">
+        <fileTransfer rootFolder="/data/tmp011" accessType="SFTP" host="10.251.0.29" port="22" sshConfigId="1eb3e84b-d425-4a46-8c94-a2f4312adf75" sshConfig="tmp011@10.251.0.29:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
